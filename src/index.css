@@ -1,0 +1,23 @@
+/* Tailwind imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind form;
+
+/* Poppins font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/* Component SCSS files */
+@import '../src/components/_navigation.scss';
+@import '../src/components/_hero.scss';
+@import '../src/components/_forBuyers.scss';
+@import '../src/components/_forSellers.scss';
+@import '../src/components/_requestDemo.scss';
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

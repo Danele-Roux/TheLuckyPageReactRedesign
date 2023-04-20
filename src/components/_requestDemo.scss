@@ -1,0 +1,43 @@
+.request-demo {
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+}
+
+.request-demo:before, .request-demo:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  transform-origin: left top;
+  transform: skewY(-2deg);
+}
+
+#requestdemo {
+  position: absolute;
+  top: -100px;
+}
+
+button {
+  transition: all 0.25s;
+}
+
+input {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 60px white inset !important;
+}
+
+.error-message {
+  color: #F98080;
+}

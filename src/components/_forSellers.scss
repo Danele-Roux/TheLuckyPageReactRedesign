@@ -1,0 +1,18 @@
+.for-sellers {
+    background: url(../img/for-sellers-bg.png);
+    background-size: cover;
+
+    .icon {
+        float: left;
+        margin: 5px 5px 0 0 
+    }
+
+    h2 {
+        border: 1px solid red;
+    }
+}
+
+#sellers {
+    position: absolute;
+    top: -80px;
+  }
