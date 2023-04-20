@@ -43,7 +43,7 @@ export default function NavBar() {
         <div className="inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6">
           <div className="flex items-center justify-between">
-          <a href="#home" className="-m-1.5 p-1.5">
+          <a href="#home" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
             <span className="sr-only">Lucky beard logo</span>
             <img className="h-10 w-auto" src={logo} alt="Lucky beard logo" />
           </a>
